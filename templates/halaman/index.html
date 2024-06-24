@@ -43,7 +43,7 @@
                                 <a href="{% url 'detail_artikel' artikel.slug %}">{{ artikel.judul }}</a>
                             </h4>
                             <p class="card-description">
-                                {{ artikel.isi | truncatechars:100 }}<a href="{% url 'detail_artikel' artikel.slug %}"> Read More </a>
+                                {{ artikel.isi | truncatechars:100 | safe}}<a href="{% url 'detail_artikel' artikel.slug %}"> Read More </a>
                             </p>
                             <span class="label label-danger">{{ artikel.created_at }}</span>
                         </div>
