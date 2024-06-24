@@ -1,0 +1,65 @@
+{% extends 'halaman/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('{% static 'halaman/assets/img/hgh.jpg' %}');">
+		<div class="container">
+    		<div class="row">
+        		<div class="col-md-8 col-md-offset-2">
+                    <h1 class="title">About Us</h1>
+                        <h4>Pratama</h4>
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<div class="main main-raised">
+		<div class="container">
+            <div class="about-description text-center">
+                <div class="row">
+    				<div class="col-md-8 col-md-offset-2">
+    					<h5 class="description"></h5>
+    				</div>
+    			</div>
+            </div>
+            <div class="about-team team-1">
+    			<div class="row">
+    				<div class="col-md-8 col-md-offset-2 text-center">
+    					<h2 class="title">Description</h2>
+    					<h5 class="description">Kami adalah sekelompok individu yang percaya bahwa mimpi adalah bahan bakar kehidupan. Di sini, 
+						kami berkomitmen untuk mengejar setiap impian dengan semangat dan determinasi tanpa henti. Kami memahami bahwa setiap langkah 
+						kecil membawa kita lebih dekat pada tujuan besar, dan setiap tantangan adalah peluang untuk tumbuh dan belajar.
+						Misi kami adalah menginspirasi dan memberdayakan setiap orang untuk tidak pernah menyerah pada mimpi mereka, betapapun besar atau kecilnya. 
+						Kami percaya bahwa dengan kerja keras, dedikasi, dan keberanian, tidak ada mimpi yang terlalu jauh untuk dicapai.
+						Bergabunglah dengan kami dalam perjalanan ini, mari kita wujudkan mimpi-mimpi kita menjadi kenyataan bersama.</h5>
+    				</div>
+    			</div>
+
+    			<div class="row">
+    				<div class="col-md-3">
+    					<div class="card card-profile card-plain">
+    						<div class="card-avatar">
+    							<a href="#pablo">
+    								<img class="img" src="{%  static 'halaman/assets/img/faces/bani.jpg' %}" />
+    							</a>
+    						</div>
+
+    						<div class="card-content">
+    							<h4 class="card-title">Syahbani Pratama</h4>
+    							<h6 class="category text-muted">CEO / Co-Founder</h6>
+
+    							<p class="card-description">
+    								"Yang terpenting bukanlah seberapa lambat kamu berjalan, tapi seberapa jauh kamu melangkah."
+    							</p>
+    							<div class="footer">
+    								<a href="#pablo" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a>
+    								<a href="#pablo" class="btn btn-just-icon btn-simple btn-facebook"><i class="fa fa-facebook-square"></i></a>
+    								<a href="#pablo" class="btn btn-just-icon btn-simple btn-google"><i class="fa fa-google"></i></a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
